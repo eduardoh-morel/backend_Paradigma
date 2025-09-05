@@ -19,21 +19,6 @@ Durante o curso, a implementação prática foi realizada em **Java**, com foco 
 
 ---
 
-## 📂 Estrutura do repositório
-A organização segue os módulos/trabalhos da disciplina:
-
-📦 Paradigma-Linguagens-Java
-┣ 📂 src
-┃ ┣ 📂 main
-┃ ┃ ┣ 📂 java # Código-fonte em Java (com pacotes do projeto Spring)
-┃ ┃ ┗ 📂 resources # Arquivos de configuração (application.properties, etc.)
-┃ ┣ 📂 test # Testes automatizados
-┣ 📄 pom.xml # Configuração Maven (dependências do Spring)
-┣ 📄 README.md
-┗ 📄 .gitignore
-
----
-
 ## 🚀 Como executar o projeto
 1. Certifique-se de ter o **Java JDK 17+** instalado.  
    👉 [Download Java](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)  
