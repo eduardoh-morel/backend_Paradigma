@@ -28,4 +28,4 @@ Durante o curso, a implementação prática foi realizada em **Java**, com foco 
 
 3. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/Paradigma-Linguagens-Java.git
+   git clone https://github.com/eduardoh-morel/backend_Paradigma.git
