@@ -27,6 +27,6 @@ A partir da análise da estrutura do repositório, estas são as principais tecn
 ## 📂 Estrutura do projeto (diretórios principais)
 
 - **config-service**: serviço de configuração centralizada para os demais microsserviços.
-- **greeting-service**: serviço que provavelmente oferece endpoints de saudação (mensagens).
-- **currency-service**: serviço que trata de operações relacionadas a moedas (ex: taxas, conversão).
+- **greeting-service**: serviço que oferece endpoints de saudação (mensagens).
+- **currency-service**: serviço que trata de operações relacionadas a moedas (ex: conversão).
 - **product-service**: serviço que gerencia operações de produtos (CRUD de produtos, etc.).
