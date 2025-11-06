@@ -19,7 +19,7 @@ public class ApiGatewayConfig {
                         .uri("http://httpbin.org:80"))
                 .route(p -> p
                         .path("/products/**")
-                        .uri("lb://products-service"))
+                        .uri("lb://product-service"))
                 .route(p -> p
                         .path("/currency/**")
                         .uri("lb://currency-service"))
@@ -29,6 +29,9 @@ public class ApiGatewayConfig {
                 .route(p -> p
                         .path("/ws/products/**")
                         .uri("lb://products-service"))
+                .route(p -> p
+                        .path("/ws/orders/**")
+                        .uri("lb://order-service"))
                 .build();
     }
 }
